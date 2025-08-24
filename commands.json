@@ -1,0 +1,8 @@
+{
+    "c": "create_game",
+    "s": "save_game",
+    "l": "load_game",
+    "q": "exit",
+    "a": "attack",
+    "h": "help"
+}

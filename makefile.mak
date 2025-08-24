@@ -1,0 +1,2 @@
+game: main.cpp GameField.cpp Ship.cpp ShipManager.cpp DoubleDamage.cpp Scanner.cpp RandomShot.cpp AbilityManager.cpp Game.cpp StateGame.cpp InputManager.cpp Output.cpp
+	g++ -o game main.cpp GameField.cpp Ship.cpp ShipManager.cpp DoubleDamage.cpp Scanner.cpp RandomShot.cpp AbilityManager.cpp Game.cpp StateGame.cpp InputManager.cpp Output.cpp -lm 
