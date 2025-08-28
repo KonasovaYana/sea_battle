@@ -11,8 +11,6 @@ public:
     virtual void attack(int x, int y, ShipManager& manager) = 0;
     virtual std::string getType() const = 0;
     virtual ~Ability() {}
-    // virtual void save(std::ostream& out) const = 0; 
-    // virtual void load(std::istream& in) = 0; 
 };
 
 #endif

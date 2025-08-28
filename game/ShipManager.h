@@ -16,7 +16,6 @@ public:
     ShipManager() : ships(), ship_count(), ship_limits() {}
     void serialize(std::ostream& out) const;
     void deserialize(std::istream& in);
-    // friend std::ostream& operator<<(std::ostream& os, const ShipManager& manager);
 
 
 private:
